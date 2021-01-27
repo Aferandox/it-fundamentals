@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#main{
+    width: 80%;
+    margin:auto;
+    height: 700px;
+}
+#title{
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+span{
+    color: red;
+}
+#for_image_1_pic1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    border-radius: 20px;
+}
+p{
+    margin-top: 3em;
+    font-size: 23px;
+    text-align: center;
+}
+#his_works_1_h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    padding-top: 20px;
+}
+li{
+    font-size: 23px;
+    line-height: 1.8;
+}
+#link_to_wikipedia_1{
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+#link_to_wikipedia_1:hover{
+    color: white;
+}
