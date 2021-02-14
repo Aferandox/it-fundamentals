@@ -34,11 +34,11 @@ while True:
         print("Oops!  That was no valid number.  Try again...")
 
 if ((year % 4 == 0) and (year % 100 == 0) and (year % 400 == 0)):
-    print("{} is a 'leap' year.\n".format(year))
-    print("True")
+    print("{} is a leap year.\n".format(year))
+    
 elif ((year % 4 == 0) and (year % 100 != 0)):
-    print("{} is a 'leap' year.\n".format(year))
-    print("True")
+    print("{} is a leap year.\n".format(year))
+    
 else:
-    print("{} is not a 'leap' year.\n".format(year))
-    print("False")
+    print("{} is not a leap year.\n".format(year))
+    
